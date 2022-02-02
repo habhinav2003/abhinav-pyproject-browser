@@ -61,7 +61,7 @@
         self.url_bar.setText(q.toString())
 
 
-app = QApplication(sys.argv)
-QApplication.setApplicationName("Abhinav's BROWSER")
-window = MainWindow()
-app.exec_()
+    app = QApplication(sys.argv)
+    QApplication.setApplicationName("Abhinav's BROWSER")
+    window = MainWindow()
+    app.exec_()
